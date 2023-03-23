@@ -1,0 +1,10 @@
+@import "font-awesome.css";
+@import "variables.css";
+@import "reset.css";
+@import "globals.css";
+@import "./sections/header.css";
+@import "./sections/home.css";
+@import "./sections/about.css";
+@import "./sections/habilities.css";
+@import "./sections/projects.css";
+@import "./sections/footer.css";

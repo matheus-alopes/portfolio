@@ -1,0 +1,44 @@
+/* habilities */
+.habilities .container-habilities {    
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilities .container-habilities .infos {
+    max-width: 350px;
+    padding: 40px 20px;    
+}
+
+.habilities .container-habilities .infos p,
+.habilities .container-habilities .infos h3,
+.habilities .container-habilities .infos .logo {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilities .container-habilities .infos:hover p,
+.habilities .container-habilities .infos:hover h3,
+.habilities .container-habilities .infos:hover .logo {
+    color: var(--color-primary);
+}
+
+.habilities .container-habilities .infos h3 {
+    font-size: var(--fontsize-extra-large);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--color-primary);      
+}
+
+.habilities .container-habilities .infos p {
+    font-size: 1.8rem;
+    font-family: var(--font-secundary);
+}
+
+.habilities .container-habilities .infos .logo {
+    font-size: 8rem;
+}
